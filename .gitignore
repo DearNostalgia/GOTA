@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+*.json
 
 # Test binary, built with `go test -c`
 *.test
@@ -20,3 +21,14 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# Test data
+/data/
+/main/
+
+# env file
+.idea/
+**/.DS_Store
+
+# Test file
+*_test.go
